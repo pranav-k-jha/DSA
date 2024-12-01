@@ -4,7 +4,7 @@ public class MinArray {
 
     public int findMinimum(int[] arr) {
         // edge cases
-        if (arr.length == 0 | arr == null) {
+        if (arr == null || arr.length == 0) {
             throw new IllegalArgumentException("Invalid Input");
         }
         int min = arr[0];
